@@ -1,6 +1,6 @@
 const API_KEY = "7a92927b-3137-4cc5-9344-e559aaf91a0c"
 
-let i = 2;
+
 const getCountries = async ()=>{
     try{
         const url = `https://holidayapi.com/v1/countries?pretty&key=${API_KEY}`
