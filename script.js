@@ -1,9 +1,5 @@
 const API_KEY = "7a92927b-3137-4cc5-9344-e559aaf91a0c"
 
-const buttonRenderCountriesList = document.querySelector("#countries-list-btn");
-buttonRenderCountriesList.addEventListener("click", () =>{
-    console.log("handle click event");
-});
 
 const getCountries = async ()=>{
     try{
